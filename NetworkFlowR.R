@@ -67,16 +67,4 @@ plotSim(sim_report)
 plotComp(sim_report[1:400,])
 
 tail(sim_report)
-# allCrime = read.csv(Datafile("allCrime.csv"), as.is = TRUE)
-# head(allCrime[, 1:5])
-# ##     Month                Force Neighbourhood All.crime.and.ASB Burglary
-# ## 1 2011-09 Cumbria Constabulary        GARS07                41        3
-# ## 2 2011-09 Cumbria Constabulary        GARS06               141        3
-# ## 3 2011-09 Cumbria Constabulary        GARS05                56        0
-# ## 4 2011-09 Cumbria Constabulary        GARS04                82        2
-# ## 5 2011-09 Cumbria Constabulary        GARS03               119        4
-# ## 6 2011-09 Cumbria Constabulary        GARS02                90        2
-# # plot time series for each nbrhood - leave the legend out
-# ggplot(allCrime, aes(x = Month, y = Criminal.damage.and.Arson, group = Neighbourhood, colour = Neighbourhood)) +
-#   geom_line() + opts(legend.position = "none")
-
+  
